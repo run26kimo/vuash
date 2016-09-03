@@ -1,0 +1,10 @@
+{
+  "name": "vua.sh",
+  "description": "Send secret messages safely",
+  "repository": "https://github.com/current/vuash",
+  "logo": "https://cloud.githubusercontent.com/assets/62244/17832954/31b0879c-66e7-11e6-88e5-e9ed495007ab.png",
+  "keywords": ["message", "secret", "safe"],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:reset"
+  }
+}
